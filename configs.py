@@ -4,7 +4,7 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "25435105"))
   API_HASH = os.environ.get("API_HASH", "011126265844f2d7cc7dc1a024f6bc78")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6734734174:AAFlFe2iqB7WDjzYksB_ZWC0ZGqjPsZ_qyo")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "@fileeestorebot")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "fileeestorebot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002053044713"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "zxlink.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "89e367badb1ee93eab04dd64450e18393d77d302")
