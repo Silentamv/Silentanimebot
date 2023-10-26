@@ -74,14 +74,14 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(" 🔹ᴏᴏᴡɴᴇʀ 🔹", url="https://t.me/khandudon3002"),
+                        InlineKeyboardButton("🔹 ᴏᴡɴᴇʀ 🔹", url="https://t.me/khandudon302"),
                     ],
                     [
                         InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
                         InlineKeyboardButton("✖ ꜱʟᴇᴇᴘ ᴍᴏᴅᴇ ✖", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("ʙᴇꜱᴛ ᴘʀꜱɴ ɪ ᴋɴᴏᴇ", url="tg://settings")
+                        InlineKeyboardButton("✨ ʙᴇꜱᴛ ᴘʀꜱɴ ɪ ᴋɴᴏᴡ ✨", url="tg://settings")
                     ]
                 ]
             )
@@ -351,16 +351,14 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/VJ_Botz")
+                        InlineKeyboardButton("🔹 ᴏᴡɴᴇʀ 🔹", url="https://t.me/khandudon302"),
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
+                        InlineKeyboardButton("✖ ꜱʟᴇᴇᴘ ᴍᴏᴅᴇ ✖", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/VJ_Bot_Disscussion"),
-                        InlineKeyboardButton("YouTube Channel", url="https://youtube.com/@Tech_VJ")
+                        InlineKeyboardButton("✨ ʙᴇꜱᴛ ᴘʀꜱɴ ɪ ᴋɴᴏᴡ ✨", url="tg://settings")
                     ]
                 ]
             )
@@ -408,12 +406,10 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/VJ_Botz"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/VJ_Bot_Disscussion")
+                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/khandudon302"),
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                     ]
                 ]
             )
