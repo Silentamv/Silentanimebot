@@ -18,18 +18,15 @@ class Config(object):
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
   ABOUT_BOT_TEXT = f"""
-This is a Permanent FileStore Bot. 
-Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
-
-╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
+  ᴄʜᴇᴄᴋᴏᴜᴛ ᴍʏ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ 
+  
+╭────[ 🚩 ʟᴏᴏᴋ ʙᴇʟᴏᴡ ᴍʏ ꜰʀɪᴇɴᴅ 🚩 ]────⍟
 │
-├🔸 ᴍʏ ɴᴀᴍᴇ: (https://t.me/{BOT_USERNAME})
+├ ▶ ᴍʏ ɴᴀᴍᴇ: ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ
+│ ▶ ꜱᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
+├ ▶ ᴏᴡɴᴇʀ : [ᴋʜᴀɴꜰᴜᴅᴏɴ](t.me/khandudon302)
 │
-├🔸 ʟᴀɴɢᴜᴀɢᴇ : [Python 3](https://www.python.org)
-│
-├🔹 ᴏᴡɴᴇʀ : [Khandudon302](t.me/khandudon302)
-│
-╰──────[ 😎 ]───────────⍟
+╭───[ 🌿 ɴᴇᴠᴇʀꜰᴏʟᴅ ɴᴇᴠᴇʀ ʙᴀᴄᴋᴅᴏᴡɴ 🌿 ]───⍟
 """
   ABOUT_DEV_TEXT = f"""
 ᴍʏ ᴅᴇᴠ: [➡](https://telegram.me/badal6667rai)
@@ -37,11 +34,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
  I am Super noob Please Support My Hard Work. 🐸
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
+Hello, [{}](tg://user?id={})\n\nThis is a Permanent **File Store Bot**.
 
-How to Use Bot & it's Benefits??
-
-📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
-
-⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue. I support Channel Also.
+📢 ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ & ɪᴛ ᴡɪʟʟʙᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ & ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ (ꜱʜᴏʀᴛᴇɴᴇᴅ) ꜰɪʟᴇ ʟɪɴᴋ.
 """
