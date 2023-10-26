@@ -333,10 +333,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ℹ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
+                        InlineKeyboardButton("ℹ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ℹ",
                                              url="https://t.me/sourcebotcode/2")
                     ],
-                    ]
+                    [
+                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("Go Home", callback_data="gotohome")
                     ]
                 ]
