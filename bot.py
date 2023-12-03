@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔹 ᴅᴍᴄᴀ 🔹", url="https://t.me/khandudon302"),
+                        InlineKeyboardButton("🔹 ᴅᴍᴄᴀ 🔹", url="https://telegra.ph/DMCA-REPORT-11-28"),
                     ],
                     [
                         InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
@@ -351,7 +351,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔹 ᴅᴍᴄᴀ 🔹", url="https://t.me/khandudon302"),
+                        InlineKeyboardButton("🔹 ᴅᴍᴄᴀ 🔹", url="https://telegra.ph/DMCA-REPORT-11-28"),
                     ],
                     [
                         InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
@@ -406,7 +406,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/khandudon302"),
+                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/badal6667rai"),
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
