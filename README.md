@@ -59,7 +59,7 @@ Use these settings when adding a monitor:</b>
 </details>
 
 ### Demo Bot:
-<a href="https://telegram.me/VJ_Botz"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
+<a href="https://telegram.me/fileeestorebot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
 ![Configs](https://telegra.ph/file/033408792afc4d4f1f8f6.png) 🤖
 
