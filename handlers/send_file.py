@@ -11,7 +11,7 @@ from handlers.helpers import str_to_b64
 async def reply_forward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f"Files will be deleted in 05 minutes to avoid copyright issues. Please forward and save them.Bhai please inko forward karlo...kuch issue hoto mujhe msg karo @badal6667rai",
+            f"Files will be deleted in 05 minutes to avoid copyright issues./n/n Please forward and save them./n/n Bhai please inko forward karlo...kuch issue hoto mujhe msg karo @badal6667rai/n/n STREAM YOUR FILES BY FORWARDING THESE FILES TO THIS BOT @filestreamerv22_bot 🙏",
             disable_web_page_preview=True,
             quote=True
         )
