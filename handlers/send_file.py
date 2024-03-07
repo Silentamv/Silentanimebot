@@ -8,7 +8,7 @@ from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 from handlers.helpers import str_to_b64
 
-async def reply_forward(message: Message int):
+async def reply_forward(message: Message, file_id: int):
     try:
         await message.reply_text(
             f"English:\nFiles will be deleted in 05 minutes to avoid copyright issues\nHindi:\nBhai please inko forward karlo apne saved messages mein 5mins mein ye sab delete hojain gii..!",
