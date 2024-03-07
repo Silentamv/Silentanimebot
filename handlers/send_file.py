@@ -8,16 +8,16 @@ from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 from handlers.helpers import str_to_b64
 
-async def reply_forward(message: Message, file_id: int):
+async def reply_forward(message: Message: int):
     try:
         await message.reply_text(
-            f"English:\nFiles will be deleted in 05 minutes to avoid copyright issues\nHindi:\nBhai please inko forward karlo apne saved messages mein..!",
+            f"English:\nFiles will be deleted in 05 minutes to avoid copyright issues\nHindi:\nBhai please inko forward karlo apne saved messages mein 5mins mein ye sab delete hojain gii..!",
             disable_web_page_preview=True,
             quote=True
         )
     except FloodWait as e:
         await asyncio.sleep(e.x)
-        await reply_forward(message, file_id)
+        await reply_forward(message)
 
 async def media_forward(bot: Client, user_id: int, file_id: int):
     try:
