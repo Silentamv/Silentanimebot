@@ -8,7 +8,7 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002007510451"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Ziplinker.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "760615c59a2a8723d5b2e85a8ccc42f58170fecc")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", "6459102722"))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "2056329003"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Arunava:arunava@arunava.vbp6qbk.mongodb.net/?retryWrites=true&w=majority&appName=Arunava")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002084706768")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002132361598"))
