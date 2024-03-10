@@ -122,7 +122,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact Owner (https://t.me/khandudon302)",
+            await message.reply_text("Sorry, You are banned!\n\nContact Owner (https://t.me/silent_amv)",
                                      disable_web_page_preview=True)
             return
 
@@ -374,7 +374,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my Owner (https://t.me/badal6667rai).",
+                        text="Sorry Sir, You are Banned to use me. Contact my Owner (https://t.me/silent_amv).",
                         disable_web_page_preview=True
                     )
                     return
@@ -396,7 +396,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my Owner (https://t.me/badal6667rai).",
+                    text="Something went Wrong. Contact my Owner (https://t.me/silent_amv).",
                     disable_web_page_preview=True
                 )
                 return
@@ -406,7 +406,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/badal6667rai"),
+                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/silent_amv"),
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
